@@ -70,7 +70,7 @@ namespace AutoTweetSends
                     System.Threading.Thread.Sleep(500);
                     IWebElement tweetClick = driver.FindElement(tweetButtonClickLocator);
                     tweetClick.Click();
-                    System.Threading.Thread.Sleep(4000);
+                    System.Threading.Thread.Sleep(7000);
                 }
             }
             else
